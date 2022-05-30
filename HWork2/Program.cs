@@ -10,22 +10,22 @@ namespace HWork2
     {
         static void Main(string[] args)
         {
-            string FullName = "Ivanov Ivan Ivanovich";
-            string Email = "ivan@gmail.com";
-            int Age = 17;
-            float MarkPhysics = 80.9f;
-            float MarkProgramming = 90.5f;
-            float MarkMath = 77.5F;
-            float SumMarks;
-            SumMarks = (MarkPhysics + MarkProgramming + MarkMath) / 3;
-            Console.WriteLine(FullName);
-            Console.WriteLine(Age);
-            Console.WriteLine(Email);
-            Console.WriteLine(MarkPhysics);
-            Console.WriteLine(MarkProgramming);
-            Console.WriteLine(MarkMath);
+            string fullName = "Ivanov Ivan Ivanovich";
+            string email = "ivan@gmail.com";
+            int age = 17;
+            float markPhysics = 80.9f;
+            float markProgramming = 90.5f;
+            float markMath = 77.5F;
+            float sumMarks;
+            sumMarks = (markPhysics + markProgramming + markMath) / 3;
+            Console.WriteLine(fullName);
+            Console.WriteLine(age);
+            Console.WriteLine(email);
+            Console.WriteLine(markPhysics);
+            Console.WriteLine(markProgramming);
+            Console.WriteLine(markMath);
             Console.ReadKey();
-            Console.WriteLine(SumMarks);
+            Console.WriteLine(sumMarks);
             Console.ReadKey();
         }
     }
